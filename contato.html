@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <title>Contado</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-image: linear-gradient(to left, #690969, #031242);
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px;
+            text-indent: 30px;
+        }
+        header{
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            padding-top: 5px;
+            padding: 15px;
+            border-radius: 10px 10px 0px 0px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+        }
+        div{
+            font-family: 'Press Start 2P', cursive;
+            font-size: 17px;
+            background-color: #ECF1F4;
+            border-radius: 10px 10px 0px 0px;
+            margin: -15px;
+            padding: 26px;
+
+        }
+        div > p{
+            text-align: center;
+            font-size: 10px;
+            padding-top: 9px;
+        }
+        nav{
+            text-align: end;
+            margin-top: 30px;
+            font-weight: bold;
+        
+        }
+        nav > a{
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(20, 3, 0);
+            font-size: 0.8em;
+            border-radius: 10px 10px 10px 10px;
+            
+        }
+        nav > a:hover{
+            border-radius: 10px 10px 10px 10px;
+            background-color: purple;
+            color: white;
+            transition: 0.5s;
+            
+        }
+        #atual{
+            border-radius: 10px 10px 10px 10px;
+            background-color: purple;
+            color: white;
+
+        }
+        section{
+            margin: auto;
+            max-width: 1000px;
+            height: 600px;
+            padding: 15px;
+            background-image: url(imagem/IMG_0800.GIF);
+            background-size: 100%;
+            border-radius: 0px 0px 10px 10px;
+        }
+        section > article{
+            background-color: rgba(228, 225, 225, 0.76);
+            max-width: 800px;
+            margin: auto;
+            border-radius: 10px 10px 10px 10px;
+            border: 1px solid white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.1em;
+            padding: 10px;
+
+        }
+        h2{
+           
+            margin-left: 30px;
+            
+            padding: 5px;
+            padding-right: 100px;
+            color: #ffffff;
+            background-image: linear-gradient(to right, #031242 40%, transparent);
+        }
+        li{
+            padding: 8px;
+            list-style-position: inside;
+        }
+        
+        li > a{
+            text-decoration: none;
+            color: rgb(20, 3, 0);
+            font-weight: bold;
+            
+        }
+        li > a:hover{
+            padding: 3px;
+            border-radius: 10px 10px 10px 10px;
+            background-color: #031242;
+            color: white;
+            transition: 0.3s;
+        }
+        li > span{
+            color: rgb(20, 3, 0);
+            font-weight: bold;
+            
+        }
+        footer > p{
+    
+            text-align: center;
+            margin: auto;
+            background-color: white;
+            margin-top: 70px;
+            font-size: 1em;
+            font-weight: 600;
+            color: rgb(20, 3, 0);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Edmilson Gomes</h1>
+            <p>Front-End Developer</p>
+        </div>
+        <nav>
+            <a href="index.html" rel="prev">Página Inicial</a>
+            <a href="sobre.html">Sobre mim</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="#" id="atual">Contado</a>
+
+        </nav>
+        <img src="imagem/iconepc.png" alt="icone de pc">
+    </header>
+    <section>
+        <article>
+            <h2 id="falecomigo">Como falar comigo?</h2>
+            <ul type="square">
+                <li><img src="imagem/icone-linkedin.png" alt="icone linkedin"> <a href="https://www.linkedin.com/mwlite/in/edmilson-santos-501a79120" target="_blank" rel="external">/edmilsonsantos</a></li>
+                <li><img src="imagem/icone-instagram.png" alt="icone instagram"><a href="https://www.instagram.com/edmiiilson/" target="_blank" rel="external">/edmilsongomes</a></li>
+                <li><img src="imagem/icone-facebook.png" alt="icone facebook"><a href="https://m.facebook.com/profile.php?id=100002829021506" target="_blank" rel="External">/edmilsongomes</a></li>
+                <li><img src="imagem/icone-twitter.png" alt=" icone twitter"><a href="https://twitter.com/edmilsondmx" target="_blank" rel="external">/edmilsongomes</a></li>
+                <li><img src="imagem/icone-github.png" alt="icone github"><a href="https://github.com/edmilsondmx" target="_blank" rel="external">/edmilsondmx</a></li>
+                <li><img src="imagem/icone-email.png" alt="icone e-mail"> <span>/edmilsondmx@gmail.com</span></li>
+            </ul>
+
+        </article>
+        
+    </section>
+    <footer><p>2021|Created by: Edmilson Gomes</p></footer>
+    
+</body>
+</html>

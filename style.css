@@ -1,0 +1,119 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to left, #690969, #031242);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    text-indent: 30px;
+}
+div{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    background-color: #ECF1F4;
+    border-radius: 10px 10px 0px 0px;
+    margin: -15px;
+    padding: 20px;
+
+}
+div > p{
+    text-align: center;
+}
+header{
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding-top: 5px;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+}
+nav{
+    text-align: end;
+    margin-top: 30px;
+    font-weight: bold;
+ 
+}
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(20, 3, 0);
+    font-size: 0.8em;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 0px;
+    
+}
+
+nav > a:hover{
+    border-radius: 10px 10px 10px 10px;
+    background-color: purple;
+    color: white;
+    transition: 0.5s;
+    
+}
+#atual{
+    border-radius: 10px 10px 10px 10px;
+    background-color: purple;
+    color: white;
+}
+
+#fotonerd{
+    float: right;
+    max-width: 500px;
+    width: 100%;
+}
+main{
+    
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    min-height: 600px;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+}
+h1{
+    font-size: 3.5em;
+    line-height: 1.5em;
+    
+}
+h1 > span{
+    font-size: 1.1em;
+    color: purple;
+}
+p{
+    font-size: 1em;
+    text-align: justify;
+    font-weight: 600;
+    color: rgb(20, 3, 0);
+    line-height: 1.5em;
+}
+p > span{
+    color: purple;
+    font-size: 1.2em;
+}
+footer > p{
+    
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    margin-top: 70px;
+}
+
+aside{
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+aside > img{
+    max-width: 1000px;
+    
+    
+}
