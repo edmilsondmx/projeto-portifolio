@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
     <title>Sobre</title>
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
@@ -32,9 +33,10 @@
             border-radius: 10px 10px 0px 0px;
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
         }
+        
         div{
             font-family: 'Press Start 2P', cursive;
-            font-size: 17px;
+            font-size: 16px;
             background-color: #ECF1F4;
             border-radius: 10px 10px 0px 0px;
             margin: -15px;
@@ -43,7 +45,7 @@
         }
         div > p{
             text-align: center;
-            font-size: 10px;
+            font-size: 9px;
             padding-top: 9px;
         }
         nav{
@@ -83,7 +85,7 @@
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
 
         }
-        p{
+        main > p{
             padding: 20px;
             text-indent: 30px;
             padding-right: 30px;
@@ -115,6 +117,22 @@
             font-weight: 600;
             color: rgb(20, 3, 0);
         }
+        @media screen and (max-width: 500px) {
+            main{
+                width: 90%;
+            }
+            header{
+                width: 90%;
+            }
+            nav > a{
+                text-align: center;
+                display: block;
+            }
+            footer > p{
+                font-size: 13px;
+            }
+            
+        }
     </style>
 </head>
 <body>
@@ -125,7 +143,7 @@
         </div>
         <nav>
             <a href="index.html" rel="prev">Página Inicial</a>
-            <a href="#" id="atual">Sobre mim</a>
+            <a href="#" id="atual">Sobre Mim</a>
             <a href="projetos.html">Projetos</a>
             <a href="contato.html">Contado</a>
 
