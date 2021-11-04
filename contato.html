@@ -93,16 +93,23 @@
         }
         h2{
            
-            margin-left: 30px;
-            
+            margin-left: 0px;
+            padding-left: 5px;
             padding: 5px;
-            padding-right: 100px;
             color: #ffffff;
             background-image: linear-gradient(to right, #031242 40%, transparent);
+            border-radius: 5px 5px 0px 0px;
         }
         li{
             padding: 8px;
             list-style-position: inside;
+            list-style: none;
+        }
+        li::before{
+            content: '\1F517\0020';
+        }
+        li > img{
+            transform: translateY(15%);
         }
         
         li > a{
@@ -113,7 +120,7 @@
         }
         li > a:hover{
             padding: 3px;
-            border-radius: 10px 10px 10px 10px;
+            border-radius: 5px 0px 5px 0px;
             background-color: #031242;
             color: white;
             transition: 0.3s;
@@ -133,7 +140,8 @@
             font-weight: 600;
             color: rgb(20, 3, 0);
         }
-        @media screen and (max-width: 500px) {
+        
+        @media screen and (max-width: 550px) {
             main{
                 width: 90%;
             }
@@ -146,6 +154,15 @@
             }
             footer > p{
                 font-size: 13px;
+            }
+            h2{
+                
+                text-indent: 0px;
+            }
+            li{
+                padding-right: 0px;
+                padding-left: 0px;
+                text-indent: 0px;
             }
             
         }
@@ -172,7 +189,7 @@
         <article>
             <h2 id="falecomigo">Como falar comigo?</h2>
             <ul type="square">
-                <li><img src="imagem/icone-linkedin.png" alt="icone linkedin"> <a href="https://www.linkedin.com/mwlite/in/edmilson-santos-501a79120" target="_blank" rel="external">/edmilsonsantos</a></li>
+                <li><img src="imagem/icone-linkedin.png" alt="icone linkedin"><a href="https://www.linkedin.com/mwlite/in/edmilson-santos-501a79120" target="_blank" rel="external">/edmilsonsantos</a></li>
                 <li><img src="imagem/icone-instagram.png" alt="icone instagram"><a href="https://www.instagram.com/edmiiilson/" target="_blank" rel="external">/edmilsongomes</a></li>
                 <li><img src="imagem/icone-facebook.png" alt="icone facebook"><a href="https://m.facebook.com/profile.php?id=100002829021506" target="_blank" rel="External">/edmilsongomes</a></li>
                 <li><img src="imagem/icone-twitter.png" alt=" icone twitter"><a href="https://twitter.com/edmilsondmx" target="_blank" rel="external">/edmilsongomes</a></li>
