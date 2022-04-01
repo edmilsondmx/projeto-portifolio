@@ -51,23 +51,22 @@
         const content = "Edmilson Gomes";
         const text = document.getElementById("h1");
         const speed = 200;
-
+        const cursor = document.querySelector('.cursor');
+        cursor.classList.toggle('ativo');
         let cont = 0;
         function maqEscrever(){
+            
             if(cont < content.length){
                 text.textContent += content.charAt(cont);
                 cont++;
                 setTimeout(maqEscrever, speed);
-            } /* else {
-                text.textContent = " ";
-                cont = 0;
-                maqEscrever();
-            } */
+            }
+            
         }
         maqEscrever()
-
+        
         function initCursorBlink() {
-            const cursor = document.querySelector('.cursor');
+            
 
             function animaCursor() {
                 cursor.classList.toggle('ativo');
@@ -75,7 +74,11 @@
             setInterval(animaCursor, 500);
         };
 
-        initCursorBlink();
+        setTimeout(() => {
+            initCursorBlink() 
+        }, 2500);
+        
+        
     </script>
     
 </body>
